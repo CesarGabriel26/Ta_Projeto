@@ -1,0 +1,46 @@
+[data-bs-theme=light] {
+    --Prim : #dff8e0;
+    --Seco : #b9e470;
+    --Terc : #ecffcb;
+
+    --white : whitesmoke;
+
+    --bs-body-bg-2 : #eeffef;
+
+    
+}
+
+[data-bs-theme=dark] {
+    --Prim : rgba(92, 90, 90, 0.486);
+    --Seco : #b9e470;
+    --Terc : #ecffcb;
+
+    --white : whitesmoke;
+
+    --bs-body-bg-2 : rgb(48, 48, 48);
+
+}
+
+
+
+.bg-Prim {
+    background-color: var(--Prim);
+}
+
+.bg-Seco {
+    background-color: var(--Seco);
+}
+
+.bg-Terc {
+    background-color: var(--Terc);
+}
+
+body {
+    background: var(--bs-body-bg-2) !important;
+
+}
+
+footer {
+    min-height: 150px;
+    background-color: var(--Prim);
+}

@@ -1,0 +1,10 @@
+.drop-cap {
+    float: left; 
+    font-size: 3em; 
+    line-height: 0.8em; 
+    margin-right: 0.1em; 
+}
+
+.text {
+    overflow: hidden; 
+}

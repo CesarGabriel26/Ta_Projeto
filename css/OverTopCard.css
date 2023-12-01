@@ -1,0 +1,56 @@
+.OverTopCard {
+    --H : 400px;
+    --W : 100%;
+
+    min-height: fit-content;
+    width: var(--W);
+}
+
+.OverTopCard .body {
+    position: relative;
+
+    min-height: var(--H);
+    width: var(--W);
+
+    top: calc(var(--H) / -10);
+
+}
+
+.Title {
+    
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+
+.OverTopCard .foto {
+    position: relative;
+
+    border-radius: 100%;
+
+    background: var(--white);
+    color: rgb(255, 255, 255);
+
+    height: 150px;
+    width: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 120;
+
+    margin: auto;
+
+    overflow: hidden;
+}
+
+.OverTopCard .foto i {
+    position: absolute;
+}
+
+.OverTopCard .foto img {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/OverTopCard.css">
+    <link rel="stylesheet" href="css/SimpleCard.css">
+    <link rel="stylesheet" href="css/drop-cap.css">
+
+</head>
+<body data-bs-theme="light">
+    
+    <header class="sticky-top bg-Prim">
+        <nav id="navbar-example2" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Artigo TA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Inicio">Inico</a>
+                    </li>
+                    <li class="nav-item">
+
+                      <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#Themas"  data-bs-toggle="dropdown">Temas</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#Themas">Ver temas</a></li>
+                          <li><a class="dropdown-item" href="#Tema1">o que é</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="d-block">
+        <!-- ! Carrosel -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div id="Inicio" class="carousel-inner">
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <!-- ? Themas -->
+        <section id="Themas">
+            <!-- ? CardCom imagem -->
+            <div class="OverTopCard container">
+                
+                <div class="body px-5 pt-4 pb-4 bg-Prim">
+
+                    <h1 class="Title">
+                        Temas Abordados
+                    </h1>
+
+                    <div class="foto">
+                        <img src="img/babosa.png" alt="">
+                    </div>
+
+                    <div class="container2">
+                        <div class="card">
+                            <div class="circle">
+                                <h2>1</h2>
+                            </div>
+                            <div class="content">
+                                <p>o que é</p>
+                                <a href="#Tema1">Ler</a>
+                             </div>
+                        </div>
+                        <div class="card">
+                            <div class="circle">
+                                <h2>2</h2>
+                            </div>
+                            <div class="content">
+                                <p>Resumo do q sera falado no texto ou algo do tipo</p>
+                                <a href="#Tema2">Ler</a>
+                             </div>
+                 
+                        </div>
+                        <div class="card">
+                            <div class="circle">
+                                <h2>3</h2>
+                            </div>
+                            <div class="content">
+                                <p>Resumo do q sera falado no texto ou algo do tipo</p>
+                                <a href="#Tema3">Ler</a>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ! Textos -->
+        <section class="container">
+
+
+          <div id="Tema1" class="m-auto p-5">
+
+            <h1 class="Title">
+              O que é 
+            </h1>
+
+            <div class="text">
+              <span class="drop-cap">L</span>
+              orem ipsum, dolor sit amet consectetur adipisicing elit. Est, impedit tempora incidunt suscipit nobis nam id hic quas mollitia corrupti error excepturi possimus vitae nisi ullam esse, laudantium maxime aliquam?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis mollitia amet cupiditate nihil suscipit! Porro odit ducimus animi dolore, blanditiis temporibus? Commodi aliquid repellendus, mollitia veritatis a hic cupiditate. Quidem!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a suscipit quas maxime! Sequi minus repellendus natus minima, deserunt eum mollitia ea enim sit quaerat quos recusandae amet et nesciunt!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique cum optio id, aliquam unde tempore, illum nesciunt perspiciatis quam omnis temporibus exercitationem vitae. Sunt sapiente id odio fugit quod.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae aperiam sed quasi. Aliquam est nesciunt ab eos molestiae nemo, quam similique! Facere distinctio eveniet incidunt ipsum sed explicabo vero facilis?
+              
+              <br>
+              <br>
+              
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet provident eaque nostrum exercitationem odit possimus, ullam accusantium nobis saepe perferendis quibusdam assumenda fuga nemo voluptates vel dolores, qui obcaecati a?
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet facere quas totam, velit aliquam qui odit sunt, aspernatur, dolores exercitationem voluptas sapiente laudantium facilis necessitatibus voluptatibus similique id dignissimos! Magni.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A eum reprehenderit inventore sequi aperiam voluptatum minus, ducimus, deleniti quia veritatis dignissimos doloremque placeat sit suscipit est earum iusto facilis laborum!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis amet facere rerum commodi minima dolore tenetur doloribus corrupti a! Rem voluptas sunt nam, beatae dolorem ut perferendis provident quisquam?
+            
+            </div>
+          </div>
+
+          <div id="Tema2" class="m-auto p-5 mt-5">
+            <div class="bettercard .bg-Prim">
+
+              <div class="float-title">
+                <div class="icon">
+                  <i class="bi bi-question-diamond-fill"></i>
+                </div>
+                <h1>Titulo Bem aqui</h1>
+              </div>
+
+
+              <div class="body row justify-content-between ">
+
+
+                <div class="col-8 d-flex justify-content-center align-items-center ">
+
+                  <p class="text-center">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, aperiam sapiente iure distinctio harum cupiditate assumenda dicta libero perferendis? Corporis, fuga amet! Repellat repellendus laboriosam sed quis? Error, explicabo vitae?
+                  </p>
+
+                </div>
+
+                <div class="foto col-4">
+
+                  <img src="img/usobabosa.jpg" alt="">
+
+                </div>
+
+              </div>
+
+            </div>
+
+            
+        </section>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="js/DbManager.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
